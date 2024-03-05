@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(38, 214, 185);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    
+    
+}
+
+
+.header-1 h1{
+    color:#dfb06a;
+    font-style: normal;
+    font-variant-caps: all-small-caps;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 10px;
+    transform: translate(0.5%, 0.5%);
+      
+}
+.header-1 h2{
+    color:#d6cdc0;
+    font-style: italic;
+    font-size: small;
+    margin-top: -25px;
+    transform: translate(0.5%, 0.5%);
+}
+
+/*Logo*/
+
+
+ img {
+
+    width: 300px;
+    right: 300px;
+    position: fixed;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -140%);
+    
+    
+}
+.Fundo{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*borda superior dourada*/
+
+.borda {
+    background-color: #dfb06a;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de login*/
+
+body {
+    /* Define a imagem de fundo */
+    background-image: url('https://img.freepik.com/vetores-gratis/particula-de-tecnologia-abstrata-realista-de-fundo_23-2148431735.jpg?w=996&t=st=1709658018~exp=1709658618~hmac=02edfbec1b92e9c2ecf66dbc5931680b685e962a226259202951e48b99c7a84c');
+    /* Ajusta a imagem de fundo para cobrir todo o espaço disponível */
+    background-size: cover;
+    /* Centraliza a imagem de fundo */
+    background-position: center;
+    /* Definindo a cor do texto para contrastar com a imagem de fundo */
+    color: #ffffff; /* Branco */
+  }
+
+  /* Media query para ajustar a imagem de fundo em telas menores */
+  @media screen and (max-width: 768px) {
+    body {
+      background-size: contain; /* Torna a imagem de fundo proporcional */
+    }
+  }
+
+.login-container {
+    width: 350px;
+    margin: 0 auto;
+    height: 130px;
+    margin-top: 150px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="password"],
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    margin-left: -10px;
+    
+}
+
+button {
+    background-color: #4777aa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left:-2.5%;
+    width: 370px;
+      
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+
+
+}
+@media screen and (max-width: 768px) {
+    body {
+      background-size: contain; /* Torna a imagem de fundo proporcional */
+    }
+  }
+
